@@ -33,7 +33,7 @@ This is a deliberately vulnerable application to test a simple SQL Injection.
 
 2. Open the application at http://localhost:8080/
 
-3. Run tests. "" test should fail
+3. Run tests. `login_should_not_be_vulnerable_to_obvious_sql_injection` test should fail
 
    ```bash
    docker exec -it campr-injection-workshop /bin/sh -c 'cd app && ./gradlew -g /app/.gradle test'
