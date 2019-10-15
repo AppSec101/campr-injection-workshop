@@ -21,9 +21,7 @@ public class ConnectionFactory {
             res.last();
             size = res.getRow();
         }
-        System.out.println("****************");
         System.out.println(size);
-        System.out.println("****************");
         if (size == 0){
             conn.createStatement().execute(usersTableSql);   
         }       
