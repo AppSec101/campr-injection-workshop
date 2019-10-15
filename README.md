@@ -22,11 +22,7 @@ This is a deliberately vulnerable application to test a simple SQL Injection.
     git clone git@github.com:AppSec101/campr-injection-workshop.git
   ```
   (ignore the above step if already cloned)
-<<<<<<< HEAD
   
-=======
-
->>>>>>> Updated readme and removed print statements
   ```
     cd campr-injection-workshop
   ```
@@ -51,11 +47,7 @@ This is a deliberately vulnerable application to test a simple SQL Injection.
    ```
 6. Open the application & verify the bug is fixed http://localhost:8080/
 
-<<<<<<< HEAD
 7. That's it. Stop the services and do clean up. 
-=======
-7. That's it. Stop the services and do clean up.
->>>>>>> Updated readme and removed print statements
 REMEMBER TO DO THIS STEP. LEAVING THE SERVER RUNNING COULD PUT YOUR COMPUTER AT RISK DUE TO THE VULNERABLE APPLICATION
 
    ```bash
