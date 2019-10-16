@@ -51,5 +51,6 @@ This is a deliberately vulnerable application to test a simple SQL Injection.
 REMEMBER TO DO THIS STEP. LEAVING THE SERVER RUNNING COULD PUT YOUR COMPUTER AT RISK DUE TO THE VULNERABLE APPLICATION
 
    ```bash
+   docker-compose down
    docker-compose rm -f
    ```
